@@ -13,7 +13,7 @@ class Planet{
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the number of gases");
         int n=sc.nextInt();
-        for(int i=0;i<=n;i++){
+        for(int i=0;i<n;i++){
             System.out.println("Enter Gas Name");
             gas.add(sc.next());
         }
