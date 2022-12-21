@@ -46,7 +46,7 @@ public class PlanetaryDataS {
         pLst.add(p5);
         pLst.add(p6);
         //Creating Main class Object to pass list into the methods
-        PlanetaryData2 plantInfo=new PlanetaryData2();
+        PlanetaryDataS plantInfo=new PlanetaryDataS();
         //calling Moons count method
         plantInfo.printNumOfMoons(pLst);
         //calling gas find and print method
